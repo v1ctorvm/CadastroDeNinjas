@@ -1,4 +1,4 @@
-package dev.v1ctorvm.cadastrodeninjas;
+package dev.v1ctorvm.cadastrodeninjas.Ninjas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

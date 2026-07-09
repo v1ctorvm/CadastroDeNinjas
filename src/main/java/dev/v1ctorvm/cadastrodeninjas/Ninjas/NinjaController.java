@@ -1,4 +1,4 @@
-package dev.v1ctorvm.cadastrodeninjas;
+package dev.v1ctorvm.cadastrodeninjas.Ninjas;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
