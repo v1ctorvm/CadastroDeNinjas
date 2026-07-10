@@ -17,8 +17,9 @@ public class NinjaModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
+    @Column(unique = true)
     private String email;
-    private    int idade;
+    private int idade;
 
     @ManyToOne // um ninja tem uma unica missão
     @JoinColumn(name = "missoes_id") // Foreign Key - Chave estrangeira
