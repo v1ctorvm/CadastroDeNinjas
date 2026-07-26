@@ -20,12 +20,13 @@ public class NinjaModel {
     @Column(unique = true)
     private String email;
     private int idade;
+    private String rank;
 
     @Column(name = "img_url")
     private String imgUrl;
 
-    @ManyToOne // um ninja tem uma unica missão
-    @JoinColumn(name = "missoes_id") // Foreign Key - Chave estrangeira
+    @ManyToOne
+    @JoinColumn(name = "missoes_id")
     private MissoesModel missoes;
 
 }
