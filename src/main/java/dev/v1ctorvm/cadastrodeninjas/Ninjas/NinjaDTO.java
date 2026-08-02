@@ -1,6 +1,6 @@
 package dev.v1ctorvm.cadastrodeninjas.Ninjas;
 
-import dev.v1ctorvm.cadastrodeninjas.Missoes.MissoesModel;
+import dev.v1ctorvm.cadastrodeninjas.Missoes.MissaoModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,7 +16,7 @@ public class NinjaDTO {
     private int idade;
     private String imgUrl;
     private String rank;
-    private MissoesModel missoes;
+    private MissaoModel missoes;
 
 
 }

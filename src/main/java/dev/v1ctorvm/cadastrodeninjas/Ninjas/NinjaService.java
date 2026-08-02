@@ -1,6 +1,5 @@
 package dev.v1ctorvm.cadastrodeninjas.Ninjas;
 
-import dev.v1ctorvm.cadastrodeninjas.Missoes.MissoesModel;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

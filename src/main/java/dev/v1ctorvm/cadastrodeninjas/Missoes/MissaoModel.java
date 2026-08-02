@@ -16,7 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 
-public class MissoesModel {
+public class MissaoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

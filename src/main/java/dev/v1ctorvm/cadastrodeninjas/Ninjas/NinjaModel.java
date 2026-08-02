@@ -1,6 +1,6 @@
 package dev.v1ctorvm.cadastrodeninjas.Ninjas;
 
-import dev.v1ctorvm.cadastrodeninjas.Missoes.MissoesModel;
+import dev.v1ctorvm.cadastrodeninjas.Missoes.MissaoModel;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -27,6 +27,6 @@ public class NinjaModel {
 
     @ManyToOne
     @JoinColumn(name = "missoes_id")
-    private MissoesModel missoes;
+    private MissaoModel missoes;
 
 }
